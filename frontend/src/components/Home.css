@@ -1,0 +1,88 @@
+/* General Styling */
+body {
+  background-color: #5e744d; /* Soft green background */
+  color: #728156; /* Deep moss green for text */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  background: linear-gradient(135deg, #CFE1B9, #B6C99B); /* Gradient for hero */
+  color: #728156; /* Text color */
+  border-radius: 15px;
+}
+
+.hero-image img {
+  border: 5px solid #98A77C; /* Olive green border */
+}
+
+.hero-section h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.hero-section .lead {
+  font-size: 1.2rem;
+  color: #88976C; /* Dark olive for secondary text */
+}
+
+.btn-custom-green {
+  background-color: #98A77C; /* Olive green */
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-custom-green:hover {
+  background-color: #728156; /* Deep moss green on hover */
+  color: #FFFFFF;
+}
+
+/* New Styling for Visit Buttons */
+.btn-visit {
+  background-color: #B6C99B; /* Muted sage green */
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-visit:hover {
+  background-color: #A2B787; /* Slightly darker sage green on hover */
+  color: #FFFFFF;
+}
+
+/* Card Section Styling */
+.card-section {
+  background-color: #CFE1B9; /* Light green */
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-section .card-title {
+  font-size: 1.5rem;
+  color: #728156; /* Deep moss green */
+}
+
+.card-section .card-text {
+  font-size: 1rem;
+  color: #88976C; /* Dark olive green */
+}
+
+.card-section .btn-custom-green {
+  margin-top: 10px;
+}
+
+/* Footer Styling */
+.footer-section {
+  background-color: #728156; /* Deep moss green footer */
+  color: #FFFFFF;
+}
+
+.footer-section a {
+  color: #E7F5DC; /* Soft green for links */
+}
+
+.footer-section a:hover {
+  color: #B6C99B; /* Muted sage green on hover */
+}

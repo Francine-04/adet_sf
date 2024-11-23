@@ -1,0 +1,60 @@
+/* Navbar Styling */
+.matcha-navbar {
+  background: linear-gradient(135deg, #A0B77A, #728156); 
+  color: white; 
+}
+
+.matcha-navbar .navbar-brand {
+  color: white; 
+}
+
+.matcha-navbar .nav-link {
+  color: white; 
+  font-weight: bold;
+}
+
+.matcha-navbar .nav-link:hover {
+  color: #CFE1B9; 
+}
+
+.matcha-navbar .navbar-toggler-icon {
+  background-color: white; 
+}
+
+.matcha-navbar .navbar-collapse {
+  background: linear-gradient(135deg, #A0B77A, #728156); 
+}
+
+.matcha-navbar .nav-link.active {
+  color: #CFE1B9; 
+}
+
+/* Custom button styling  */
+.btn-custom-green {
+  background-color: #98A77C; 
+  color: white;
+  border: none;
+}
+
+.btn-custom-green:hover {
+  background-color: #728156; 
+}
+
+/* Gradient Text Styling for Nav Links */
+.gradient-text {
+  background: linear-gradient(45deg, #354535, #2d5f45); 
+  background-clip: text;
+  color: transparent; 
+  transition: 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+.gradient-text:hover {
+  background: linear-gradient(45deg, #60846f, #5c635e); 
+  transform: scale(1.1); 
+}
+
+/*  (without gradient) */
+.navbar-brand {
+  font-weight: bold;
+  color: #124b2e; /* Dark green to match the theme */
+}

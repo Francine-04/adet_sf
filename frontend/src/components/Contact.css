@@ -1,0 +1,104 @@
+body {  
+  background-color: #E7F5DC;  
+  color: #728156;  
+}  
+
+.contact-section {  
+  background-color: #CFE1B9;  
+  border-radius: 15px;  
+  padding: 30px;  
+}  
+
+.contact-heading {  
+  color: #728156;  
+  font-size: 2.5rem;  
+}  
+
+.contact-description {  
+  color: #88976C;  
+  font-size: 1.2rem;  
+}  
+
+.social-links h2 {  
+  color: #728156;  
+  font-size: 1.8rem;  
+  margin-bottom: 20px;  
+}  
+
+.social-button {  
+  border: none;  
+  border-radius: 12px;  
+  padding: 20px 25px;  
+  font-size: 1.2rem;  
+  font-weight: bold;  
+  text-align: center;  
+  width: 100%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  gap: 10px;  
+  color: #FFFFFF;  
+  transition: background-color 0.3s ease, transform 0.3s ease;  
+}  
+
+.social-button:hover {  
+  transform: scale(1.05);  
+}  
+
+.social-button.instagram {  
+  background-color: #E7F5DC;  
+}  
+
+.social-button.instagram:hover {  
+  background-color: #CFE1B9;  
+}  
+
+.social-button.facebook {  
+  background-color: #B6C99B;  
+}  
+
+.social-button.facebook:hover {  
+  background-color: #98A77C;  
+}  
+
+.social-button.twitter {  
+  background-color: #98A77C;  
+}  
+
+.social-button.twitter:hover {  
+  background-color: #88976C;  
+}  
+
+.social-button.telegram {  
+  background-color: #88976C;  
+}  
+
+.social-button.telegram:hover {  
+  background-color: #728156;  
+}  
+
+.social-button.email {  
+  background-color: #728156;  
+}  
+
+.social-button.email:hover {  
+  background-color: #586941;  
+}  
+
+.social-button.discord {  
+  background-color: #586941;  
+}  
+
+.social-button.discord:hover {  
+  background-color: #404D2E;  
+}  
+
+.social-button img {  
+  height: 30px;  
+  width: 30px;  
+  margin-right: 10px;  
+}  
+
+.social-links .col-md-4 {  
+  margin-bottom: 20px;  
+}

@@ -1,0 +1,63 @@
+body {  
+  background-color: #E7F5DC;  
+  color: #728156;  
+  font-family: 'Arial', sans-serif;  
+}  
+
+.hobbies-page {  
+  padding-bottom: 50px;  
+}  
+
+.intro-section {  
+  background: linear-gradient(135deg, #CFE1B9, #B6C99B);  
+  border-radius: 15px;  
+  color: #728156;  
+}  
+
+.intro-section h1 {  
+  font-size: 2.5rem;  
+  font-weight: bold;  
+}  
+
+.intro-section p {  
+  font-size: 1.2rem;  
+  color: #88976C;  
+}  
+
+.hobbies-carousel-section {  
+  margin-top: 30px;  
+}  
+
+.hobby-carousel .hobby-image {  
+  border-radius: 15px;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+}  
+
+.hobby-carousel .carousel-caption {  
+  background-color: rgba(114, 129, 86, 0.8);  
+  color: #FFFFFF;  
+  padding: 15px;  
+  border-radius: 10px;  
+}  
+
+.hobby-carousel .carousel-caption h3 {  
+  font-size: 1.8rem;  
+  font-weight: bold;  
+}  
+
+.hobby-carousel .carousel-caption p {  
+  font-size: 1rem;  
+}  
+
+.hobby-carousel .carousel-control-prev-icon,  
+.hobby-carousel .carousel-control-next-icon {  
+  background-color: #98A77C;  
+  border-radius: 50%;  
+  height: 40px;  
+  width: 40px;  
+}  
+
+.hobby-carousel .carousel-control-prev-icon:hover,  
+.hobby-carousel .carousel-control-next-icon:hover {  
+  background-color: #728156;  
+}

@@ -1,0 +1,90 @@
+:root {
+  --dark-green: #023336; /* Dark green */
+  --medium-green: #4DA674; /* Medium green */
+  --light-green: #C1E6BA; /* Light green */
+  --very-light-green: #EAF8E7; /* Very light green */
+  --accent-green: #A2D6A3; /
+}
+
+/* Card Carousel Styling */
+.matcha-card {
+  background-color: var(--light-green);
+  border-radius: 15px;
+  border: 2px solid var(--medium-green);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}
+
+.matcha-card .card-body {
+  color: var(--dark-green);
+  padding: 20px;
+}
+
+.matcha-card .card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--dark-green);
+  margin-bottom: 10px;
+}
+
+.matcha-card .card-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--dark-green);
+}
+
+.matcha-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+/* Carousel Controls Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--dark-green);
+  border-radius: 50%; /* icons */
+  padding: 10px;
+}
+
+.carousel-indicators li {
+  background-color: var(--medium-green);
+  border-radius: 50%; /* Circular indicators */
+  transition: transform 0.3s ease;
+}
+
+.carousel-indicators li:hover {
+  transform: scale(1.2); 
+}
+
+/* Profile Image Styling */
+.profile-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 5px solid var(--medium-green);
+  border-radius: 50%; /* profile image */
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for profile */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.profile-image:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+/* Carousel Item Images */
+.carousel-item img {
+  border-radius: 15px;
+  object-fit: cover;
+  max-height: 500px; 
+  width: 100%;
+}
+
+/* images inside carousel  */
+.carousel-item img {
+  border-radius: 15px;
+  object-fit: cover;
+  max-height: 500px; 
+  width: 100%;
+}
